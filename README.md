@@ -13,12 +13,9 @@ By the end you should have filled out the following:
 6. If you are done filling out the information below, please **delete this TODO Section** to keep your project readme clean for other people to get to know more about your project.
 
 # Bottom-up.city
-
-Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
+Create a web app that helps people find bike sharing and car sharing services, additionally co-working spaces or other data which might be interesting for people to to reduce mobility. Idea: People don't want to move between different areas of a city, they search for solution nearby.  
 
 ## How to Setup and Run
-
 In order to setup the project, please proceed as follows:
 
 ```bash
@@ -31,8 +28,8 @@ After successful installation use the following command to run the project:
   npm run
 ```
 ## Examples
-
-You can see a brief overview of how to use the main functionality below
+You can see a brief overview of how to use the main functionality below.
+Languages WebDev: HTML, CSS, JavaScript, Leaflet
 
 ```javascript
 import Component from 'my-project'
@@ -44,15 +41,13 @@ function App() {
 
   
 ## Roadmap
-
 - Additional browser support
 - Add more integrations
 
   
 ## Authors
-
-- [@bob](https://www.github.com/bob)
-- [@alice](https://www.github.com/alice)
+- Christine: cdot404 (https://github.com/cdot404)
+- 
 
   
 
