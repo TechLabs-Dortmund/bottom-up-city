@@ -43,11 +43,14 @@ function App() {
 ## Roadmap
 - Additional browser support
 - Add more integrations
+- Update WebScraper
+- Create Map with leaflet.js
+- upload necessary data
 
   
 ## Authors
 - Christine: cdot404 (https://github.com/cdot404)
-- 
+- Saqib: SQZ11 (https://github.com/SQZ0111)
 
   
 
