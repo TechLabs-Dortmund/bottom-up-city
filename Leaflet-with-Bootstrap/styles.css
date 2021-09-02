@@ -1,0 +1,59 @@
+.flex-container {
+    display: flex;
+}
+.container {
+    flex: 2;
+}
+
+// input-group and form-control are for the search box // 
+// boxmodel-btn and btn-tertiary are Bootstrap buttons for the navigation bar //
+// boxmodel is for the Leaflet map //
+// The sidebar is for the serach results //
+
+.input-group {
+    width: 800px;
+}
+
+.form-control {
+    padding: 25px;
+    margin: 30px 50px;
+    font-size: 20px;
+    box-shadow: 4px 4px #888888;    
+}
+
+.boxmodel-btn {
+    border: 0.5px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 1px;
+    margin: 30px 50px;
+    width: 700px;
+    height: 50px;  
+}
+
+.btn-tertiary {
+    color: white;
+    line-height: 200%;
+    font-size: 100%;
+    background-color: #7DF0CD;
+    width: 30%;
+    height: 2.70rem;
+}
+
+.boxmodel {
+    flex: 1;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 10px 50px;
+    padding: 1px 1px;
+    width: 700px;
+}
+
+
+.sidebar {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 30px 50px;
+    height: 600px;
+}
