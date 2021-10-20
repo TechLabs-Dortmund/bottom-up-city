@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Search from ".//components/ui/Search";  
 import "./App.css";
 import MapExample from ".//components/ui/MapExample";
@@ -6,14 +6,16 @@ import MapExample from ".//components/ui/MapExample";
 import Buttons from ".//components/ui/Buttons";
 
 const App = () => {
+    const [bikeSharingSpaces, setBikeSharingSpaces] = useState([]);
+
     return (
       <div className="App">
         <main className="container">
           <Search className="searchbox"/>
           <div>
-            <Buttons />
+            <Buttons onBikeSharingClick={setBikeSharingSpaces}/>
           </div>
-          <MapExample className="map"/>
+          <MapExample className="map" markers={bikeSharingSpaces} />
         </main> 
       </div>
     );
