@@ -1,6 +1,7 @@
 //allbtn is the flex container for the buttons//
-//Boxmodel is for the individual buttons//
-//Formcontrol is for the search box//
+//boxmodel is for the individual buttons//
+//form-control is for the search box//
+//sidebar is the container of the nav and filter selectors //
 /*.nav::before {
   position: absolute;
   content: '';
@@ -79,7 +80,7 @@
   width: 100vh;
   height: 50vh;
   margin-top: 10px;
-  border: solid 2px white; /*var(--primary-clr);*/
+  border: solid 2px var(--primary-clr);
   border-radius: 10px;
 }
 
@@ -102,7 +103,11 @@
 }
 
 .nav {
-  margin-top: 50px;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  /*background: blue;*/
+  height: 50vh;
+  width: 50vh;
 }
 
 h4 {

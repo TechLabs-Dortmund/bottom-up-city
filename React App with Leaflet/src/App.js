@@ -13,7 +13,7 @@ const App = () => {
           <div>
             <Buttons />
           </div>
-          <MapExample className="map"/>
+            <MapExample className="map"/>
         </main> 
       </div>
     );

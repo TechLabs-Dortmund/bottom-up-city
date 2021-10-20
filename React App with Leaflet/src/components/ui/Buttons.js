@@ -8,7 +8,7 @@ const Buttons = () => {
     return (
         <div className="allbtn">
             <button onClick={handleClick} className="boxmodel"><strong>Bikesharing</strong></button>
-            <button onClick={handleClick} className="boxmodel"><strong>Carsharing</strong></button>
+            <button onClick={handleClick} className="boxmodel"><strong>e-Tankstellen</strong></button>
             <button onClick={handleClick} className="boxmodel"><strong>Coworking</strong></button>
         </div>
     )
