@@ -1,6 +1,7 @@
 //allbtn is the flex container for the buttons//
-//Boxmodel is for the individual buttons//
-//Formcontrol is for the search box//
+//boxmodel is for the individual buttons//
+//form-control is for the search box//
+//sidebar is the container of the nav and filter selectors //
 /*.nav::before {
   position: absolute;
   content: '';
@@ -37,7 +38,7 @@
   width: 100vh;
   height: 5vh;
   font-size: 20px;
-  margin: 5vh 3vh -5vh -7vh;
+  /* margin: 5vh 3vh -5vh -7vh; */
   border: 2px solid white;
   border-radius: 10px;
   box-shadow: 2px 2px #888888;
@@ -77,9 +78,9 @@
 
 .leaflet-container {
   width: 100vh;
-  height: 50vh;
+  height: 60vh;
   margin-top: 10px;
-  border: solid 2px white; /*var(--primary-clr);*/
+  border: solid 2px var(--primary-clr);
   border-radius: 10px;
 }
 
@@ -88,21 +89,25 @@
 }*/
 
 .sidebar {
-  display: flex;
-  flex-wrap: wrap;  
+  /* display: flex;
+  flex-wrap: wrap;   */
   width: 50vh;
   height: 10vh;
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px;
   margin-left: -210px;
   margin-right: 1px;
-  margin-bottom: -1px;
+  margin-bottom: -1px; */
   padding: 2px;
   /*background: gray;*/
 }
 
-.nav {
-  margin-top: 50px;
+.counter {
+  margin-top: 5vh;
+  margin-left: 5vh;
+  /*background: blue;*/
+  height: 50vh;
+  width: 50vh;
 }
 
 h4 {
@@ -115,10 +120,10 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vh;
+  width: 35vh;
   color: black;/*var(--primary-clr);*/
   background: #d9d9d9;
-  font-size: 2vh;
+  font-size: 3vh;
   margin-top: 4vh;
   margin-left: 20vh;
   margin-right: 10vh;
@@ -136,4 +141,8 @@ h4 {
   flex: wrap;
   width: 140vh;
   /*background: blue;*/
+}
+
+.popup {
+  color: var(--primary-clr);
 }
