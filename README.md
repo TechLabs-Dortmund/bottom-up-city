@@ -52,6 +52,6 @@ The first step to use our web app is the search bar: The user types in the place
 ## Authors
 - Christine: cdot404 (https://github.com/cdot404)
 - Saqib: SQZ11 (https://github.com/SQZ0111)
-
+- Sina: https://github.com/SinaDaldrup/SinaDaldrup
   
 
