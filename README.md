@@ -19,7 +19,7 @@ Create a web app that helps people find bike sharing and car sharing services, a
 In order to setup the project, please proceed as follows:
 
 ```bash
-  npm install my-project
+  npm install my-project\bottom-up-city\React App with Leaflet
 ```
 
 After successful installation use the following command to run the project:
@@ -27,6 +27,14 @@ After successful installation use the following command to run the project:
 ```bash
   npm run
 ```
+
+
+Then run npm start to start a local server which can show the application in the browser
+
+```bash
+  npm start
+```
+
 ## Examples
 You can see a brief overview of how to use the main functionality below.
 Languages WebDev: HTML, CSS, JavaScript, Leaflet
