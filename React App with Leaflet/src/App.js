@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Search from ".//components/ui/Search";  
 import "./App.css";
 import MapExample from ".//components/ui/MapExample";
-//import Sidebar from ".//components/ui/Sidbar";
 import Buttons from ".//components/ui/Buttons";
 
 const App = () => {
