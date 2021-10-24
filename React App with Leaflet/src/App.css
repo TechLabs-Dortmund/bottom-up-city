@@ -2,16 +2,6 @@
 //boxmodel is for the individual buttons//
 //form-control is for the search box//
 //sidebar is the container of the nav and filter selectors //
-/*.nav::before {
-  position: absolute;
-  content: '';
-  width: 30vh;
-  height: 10vh;
-  right: 36%;
-  bottom: 440px;
-  background: blue;
-  opacity:0.6;
-}*/
 
 * {
   margin: 0;
@@ -27,7 +17,6 @@
   display: flex;
   margin: 3vh 3vh 5vh 5vh;
   width: 140vh;
-  /*background: pink;*/
 }
 
 .container {
@@ -38,15 +27,10 @@
   width: 100vh;
   height: 5vh;
   font-size: 20px;
-  /* margin: 5vh 3vh -5vh -7vh; */
   border: 2px solid white;
   border-radius: 10px;
   box-shadow: 2px 2px #888888;
   }
-
-/*  .form-control:active {
-//    border: 2px solid white;
-  } */
 
   .allbtn {
     border: 0.5px solid white;
@@ -55,7 +39,6 @@
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    /*background: green;*/
   }
 
   .boxmodel {
@@ -84,28 +67,15 @@
   border-radius: 10px;
 }
 
-/*.aside {
-  flex: 2;
-}*/
-
 .sidebar {
-  /* display: flex;
-  flex-wrap: wrap;   */
   width: 50vh;
   height: 10vh;
   text-align: center;
-  /* margin-top: 50px;
-  margin-left: -210px;
-  margin-right: 1px;
-  margin-bottom: -1px; */
-  padding: 2px;
-  /*background: gray;*/
 }
 
 .counter {
   margin-top: 5vh;
   margin-left: 5vh;
-  /*background: blue;*/
   height: 50vh;
   width: 50vh;
 }
@@ -121,7 +91,7 @@ h4 {
   justify-content: center;
   align-items: center;
   width: 35vh;
-  color: black;/*var(--primary-clr);*/
+  color: black;
   background: #d9d9d9;
   font-size: 3vh;
   margin-top: 4vh;
@@ -129,9 +99,8 @@ h4 {
   margin-right: 10vh;
   margin-bottom: 1vh;
   padding: 1vh;
-  border: solid 2px white; /*var(--primary-clr);*/
+  border: solid 2px white;
   border-radius: 10px;
-  /*background: yellow;*/
 }
 
 .search {
@@ -140,7 +109,6 @@ h4 {
   justify-content: space-around;
   flex: wrap;
   width: 140vh;
-  /*background: blue;*/
 }
 
 .popup {
