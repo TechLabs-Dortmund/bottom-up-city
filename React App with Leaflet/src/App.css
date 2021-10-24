@@ -38,7 +38,7 @@
   width: 100vh;
   height: 5vh;
   font-size: 20px;
-  margin: 5vh 3vh -5vh -7vh;
+  /* margin: 5vh 3vh -5vh -7vh; */
   border: 2px solid white;
   border-radius: 10px;
   box-shadow: 2px 2px #888888;
@@ -89,15 +89,15 @@
 }*/
 
 .sidebar {
-  display: flex;
-  flex-wrap: wrap;  
+  /* display: flex;
+  flex-wrap: wrap;   */
   width: 50vh;
   height: 10vh;
   text-align: center;
-  margin-top: 50px;
+  /* margin-top: 50px;
   margin-left: -210px;
   margin-right: 1px;
-  margin-bottom: -1px;
+  margin-bottom: -1px; */
   padding: 2px;
   /*background: gray;*/
 }
