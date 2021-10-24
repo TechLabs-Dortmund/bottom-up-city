@@ -38,7 +38,7 @@ function App() {
   return <Component />
 }
 ```
-The first step to use our web app is the search bar: The user types in the place where she or he wants to see the results. With a click on a “search”-button, the map changes to the user-given place. As a next step, the user can decide between the three given kinds of data. To get the data on the map and in the list, the user clicks of of the three buttons. After that, the map and the list show the data the user is searching for. The results are also given in a list because some people struggle with the handling of maps, so that also people who do not like to use maps or don not know how to read them can use our web app. 
+The first step to use our web app is the search bar: The user types in the place where she or he wants to see the results. With a click on a “search”-button, the map changes to the user-given place. As a next step, the user can decide between the three given kinds of data. To get the data on the map and in the list, the user clicks on one of the three buttons. After that, the map and the list show the data the user is searching for. The results are also given in a list because some people struggle with the handling of maps, so that also people who do not like to use maps or don not know how to read them can use our web app. 
   
 ## Roadmap
 - Decide on a design
@@ -53,5 +53,6 @@ The first step to use our web app is the search bar: The user types in the place
 - Christine: cdot404 (https://github.com/cdot404)
 - Saqib: SQZ11 (https://github.com/SQZ0111)
 - Sina: https://github.com/SinaDaldrup/SinaDaldrup
+- Mario: Marioat2021 (https://github.com/Marioat2021/Marioat2021.git)
   
 
